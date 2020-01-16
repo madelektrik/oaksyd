@@ -17,7 +17,7 @@ p {
 
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Mar 15, 2019 08:00:00").getTime();
+var countDownDate = new Date("Feb 29, 2020 08:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -36,12 +36,12 @@ var x = setInterval(function() {
     
     // Output the result in an element with id="demo"
     document.getElementById("counter").innerHTML = days + "days " + hours + "h "
-    + minutes + "m " + seconds + "s to Coogee...!";
+    + minutes + "m " + seconds + "s to Sydney...!";
     
     // If the count down is over, write some text 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("counter").innerHTML = "Yes! We are there!";
+        document.getElementById("counter").innerHTML = "Bato stignal!";
     }
 }, 1000);
 </script>
